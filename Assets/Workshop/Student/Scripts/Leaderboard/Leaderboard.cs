@@ -77,7 +77,7 @@ namespace Searching
             {
                 index = left;
             }
-
+            scores.Insert(index, score);
         }
 
         public void PrintScores()
